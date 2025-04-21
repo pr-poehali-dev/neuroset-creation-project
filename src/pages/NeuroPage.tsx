@@ -59,12 +59,12 @@ const NeuroPage = () => {
       <main className="container flex-1 py-6 flex flex-col max-w-3xl mx-auto">
         <div className="flex items-center gap-2 mb-6">
           <Neuron className="h-8 w-8" />
-          <h1 className="text-2xl font-bold">Нейросеть</h1>
+          <h1 className="text-2xl font-bold">kolyaGPT</h1>
         </div>
         
         <Card className="flex-1 mb-4 overflow-hidden flex flex-col">
           <CardHeader>
-            <CardTitle>Общение с нейросетью</CardTitle>
+            <CardTitle>Общение с kolyaGPT</CardTitle>
           </CardHeader>
           
           <CardContent className="flex-1 overflow-y-auto pb-0">
@@ -72,7 +72,7 @@ const NeuroPage = () => {
               {messages.length === 0 ? (
                 <div className="text-center py-12">
                   <Neuron className="h-16 w-16 mx-auto mb-4 opacity-50" />
-                  <p className="text-muted-foreground">Начните диалог с нейросетью</p>
+                  <p className="text-muted-foreground">Начните диалог с kolyaGPT</p>
                 </div>
               ) : (
                 messages.map((message, index) => (
